@@ -99,14 +99,14 @@ public class ListaCompleta {
 //		10)Faça um programa que possa exibir uma sequência como a abaixo,
 //		sendo o teto dos pares da esquerda e direita informados pelo usuário.
 //		Exemplo: com pares da esquerda e direta com o teto de 2 unidades.
-		
+//		
 		
 //		int i=0,j=0;
 //		System.out.println("Digite o teto da esquerda");
 //		int teto_esquerda=entradaint();
 //		System.out.println("Digite o teto da direita");
 //		int teto_direita=entradaint();
-//		for(;i<=teto_esquerda;i++) {
+//		for(;i<=teto_esquerda+1;i++) {
 //			for(j=0;j<=teto_direita;j++) {
 //				System.out.print(i + " - "+ j + "\n");
 //			}
@@ -134,25 +134,91 @@ public class ListaCompleta {
 		
 //		A)
 		
-		int i=0, j=0;
-		System.out.println("Digite o numero de linhas");
-		int linhas=entradaint();
-		System.out.println("Digite o numero de colunas");
-		int colunas=entradaint();
-		for(i=0;i<linhas;i++) {
-			for(j=0;j<=i;j++) {
-				System.out.print("*");
-			}
-			System.out.print("\n");
-		}
+//		int i=0, j=0;
+//		System.out.println("Digite o numero de linhas");
+//		int linhas=entradaint();
+//		System.out.println("Digite o numero de colunas");
+//		int colunas=entradaint();
+//		for(i=0;i<linhas;i++) {
+//			for(j=0;j<=i&&j<colunas;j++) {
+//				System.out.print("*");
+//			}
+//				System.out.print("\n");
+//		}
 		
+//		B)
 		
-		
-		
-		
-		
-		
-			
-	}
+//		int i=0,j=0;
+//		System.out.println("Digite o numero de linhas");
+//		int linhas=entradaint();
+//		System.out.println("Digite o numero de colunas");
+//		int colunas=entradaint();
+//		for(i=0;i<linhas;i++) {
+//			for(j=0;j<colunas;j++) {
+//				if(i==j|| i+j== colunas-1) {
+//					System.out.print("#");
+//				}
+//				else
+//					System.out.print("*");
+//			}
+//			System.out.print("\n");
+//		}
 
-}
+//		C)
+		
+//		int i=0,j=0;
+//		System.out.println("Digite o numero de linhas");
+//		int linhas=entradaint();
+//		System.out.println("Digite o numero de colunas");
+//		int colunas=entradaint();
+//		for(;i<linhas;i++) {
+//			for(j=0;j<colunas;j++) {
+//				if(i%2==0) {
+//					System.out.print("#");
+//				}
+//				else
+//					System.out.print("*");
+//			}
+//			System.out.print("\n");
+//		}
+		
+//		D)
+		
+//		int i=0,j=0;
+//		System.out.println("Digite o numero de linhas");
+//		int linhas=entradaint();
+//		System.out.println("Digite o numero de colunas");
+//		int colunas=entradaint();
+//		for(;i<linhas;i++) {
+//			for(j=0;j<colunas;j++) {
+//				if(i==linhas-1|| i==0||j==colunas-1||j==0) {
+//					System.out.print("#");
+//				}
+//				else
+//					System.out.print("*");
+//			}
+//			System.out.print("\n");
+//		}
+		
+//		E)
+		
+//		int i=0,j=0;
+//		System.out.println("Digite o numero de linhas");
+//		int linhas=entradaint();
+//		System.out.println("Digite o numero de colunas");
+//		int colunas=entradaint();
+//		for(;i<linhas;i++) {
+//			for(j=0;j<colunas;j++) {
+//				if(i<linhas/2) {
+//					System.out.print("*");
+//				}
+//				else if(j%2==0)
+//					System.out.print("#");
+//				else
+//					System.out.print("$");
+//			}
+//			System.out.print("\n");
+//			
+//		}
+	}
+	}
